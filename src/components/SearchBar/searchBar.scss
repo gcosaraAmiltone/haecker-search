@@ -1,0 +1,39 @@
+.searchBar {
+   .segment {
+       background-color: #FF742B;
+       border: none;
+       box-shadow: none;
+       border-radius: 0;
+       display: flex;
+       .logo {
+           display: flex;
+           cursor: pointer;
+        &-image {
+            width: 1.5em;
+            height: 1.5em;
+            border: 1.5px solid white;
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-size: 2em;
+            line-height: 1.2em;
+            margin-right: .6em;
+        }
+        &-name {
+            font-size: 1.5em;
+        }
+       }
+       .input {
+           width: 80%;
+           border-radius: 0;
+           padding-left: 1em;
+       }
+       
+       i {
+        color: #FF742B;
+        font-size: 1.5em;
+        margin-left: .3em !important;
+       }
+   } 
+}
+

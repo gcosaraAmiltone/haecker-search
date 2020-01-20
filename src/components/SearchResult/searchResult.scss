@@ -1,0 +1,24 @@
+.searchResult {
+    background-color: #F6F6EF;
+    min-height: 100vh;
+    padding: 2em 1em;
+    &-content {
+        margin-bottom: .5em;
+        &-title {
+            font-weight: 500;
+            font-size: 1.2em;
+        }
+        &-url {
+            color: #828282;;
+        }
+        &-data {
+            color: #696969;
+            a {
+                text-decoration: none;
+                color: #696969;
+                font-size: .9em;
+            }
+        }
+    }
+}
+
